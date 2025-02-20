@@ -261,11 +261,11 @@ function App() {
                                             </p>
                                             <p className="d-flex align-items-lg-center mb-2 flex-column flex-lg-row ">
                                                 <span className="rating dotted pe-3 fs-Body-2 ">
-                                                    <img src="../icon/time.png" alt="time"
+                                                    <img src="./time.png" alt="time"
                                                         className="pe-1" />{`${item.time}分鐘`}
                                                 </span>
                                                 <span className="rating dotted pe-3 fs-Body-2">
-                                                    <img src="../icon/price.png" alt="price"
+                                                    <img src="./price.png" alt="price"
                                                         className="pe-1" /><del>{item.origin_price}</del>  {item.price}元
                                                 </span>
                                             </p>
